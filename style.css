@@ -1,0 +1,62 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.allCards {
+  background-color: black;
+  
+  
+ 
+}
+
+/* .blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+} */
+
+@keyframes show {
+  0% {
+      background-color: darkblue;
+      color: transparent;
+  }
+
+  100% {
+      background-color: white;
+      color: black;
+  }
+}
+
+.hide {
+  animation: hide 2s forwards;
+}
+
+@keyframes hide {
+  0% {
+      background-color: white;
+      color: black;
+  }
+
+  100% {
+      background-color: darkblue;
+      color: transparent;
+  }
+}
